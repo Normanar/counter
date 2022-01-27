@@ -34,6 +34,8 @@ export function Value(props: ValuePropsType) {
     }
 
     const pop = props.maxValue <= props.startValue ? props.setErrorMaxStart(true) : props.setErrorMaxStart(false)
+    // props.maxValue <= props.startValue ? props.setErrorMaxStart(true) : props.setErrorMaxStart(false)
+
 
 
     // return (
